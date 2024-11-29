@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'sea_battle_sim'
+package_name = 'sensor_simulator'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'Ship052D = sea_battle_sim.Ship052D:main'
+            'Radar = sensor_simulator.Radar:main'
         ],
     },
 )

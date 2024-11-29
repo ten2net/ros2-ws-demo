@@ -23,7 +23,7 @@ mkdir -p src/$PKG_NAME
 cd src/$PKG_NAME
 
 # 创建ROS2 Python包
-ros2 pkg create $PKG_NAME --build-type ament_python --dependencies rclpy --node-name $NODE_NAME
+ros2 pkg create $PKG_NAME --destination-directory ./src --build-type ament_python --dependencies rclpy --node-name $NODE_NAME
 
 cd ../..
 # 创建.gitignore文件并添加内容

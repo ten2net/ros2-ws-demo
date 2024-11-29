@@ -1,5 +1,5 @@
 def main():
-    print('Hi from sea_battle_sim.')
+    print('Hi from sensor_simulator.')
 
 
 if __name__ == '__main__':
