@@ -1,0 +1,42 @@
+{
+  "_Node__handle": None,
+  "_context": <rclpy.context.Context object at 0x7f745291dca0>,
+  "_parameters": {
+    "use_sim_time": <rclpy.parameter.Parameter object at 0x7f744a09eb40>,
+    "start_type_description_service": <rclpy.parameter.Parameter object at 0x7f7449c133b0>
+  },
+  "_publishers": [<rclpy.publisher.Publisher object at 0x7f744abf85f0>
+  ],
+  "_subscriptions": [],
+  "_clients": [],
+  "_services": [<rclpy.service.Service object at 0x7f744a1313a0>, <rclpy.service.Service object at 0x7f745275a6f0>, <rclpy.service.Service object at 0x7f7449d91730>, <rclpy.service.Service object at 0x7f7449db6150>, <rclpy.service.Service object at 0x7f7449d91ee0>, <rclpy.service.Service object at 0x7f7452b4a210>, <rclpy.service.Service object at 0x7f744a1310d0>
+  ],
+  "_timers": [],
+  "_guards": [],
+  "_Node__waitables": [<rclpy.event_handler.EventHandler object at 0x7f7452d066f0>, <rclpy.event_handler.EventHandler object at 0x7f7449cb7470>
+  ],
+  "_default_callback_group": <rclpy.callback_groups.MutuallyExclusiveCallbackGroup object at 0x7f7452b48920>,
+  "_pre_set_parameters_callbacks": [],
+  "_on_set_parameters_callbacks": [<bound method TimeSource._on_parameter_event of <rclpy.time_source.TimeSource object at 0x7f744075c4d0>>
+  ],
+  "_post_set_parameters_callbacks": [],
+  "_rate_group": <rclpy.callback_groups.ReentrantCallbackGroup object at 0x7f74528ed970>,
+  "_allow_undeclared_parameters": False,
+  "_parameter_overrides": {
+    "angular_speed": <rclpy.parameter.Parameter object at 0x7f744a114620>,
+    "linear_speed": <rclpy.parameter.Parameter object at 0x7f744a132c30>,
+    "node_name": <rclpy.parameter.Parameter object at 0x7f744a114fe0>
+  },
+  "_descriptors": {
+    "use_sim_time": rcl_interfaces.msg.ParameterDescriptor(name="use_sim_time", type=1, description="", additional_constraints="", read_only=False, dynamic_typing=False, floating_point_range=[], integer_range=[]),
+    "start_type_description_service": rcl_interfaces.msg.ParameterDescriptor(name="start_type_description_service", type=1, description="If enabled, start the ~/get_type_description service.", additional_constraints="", read_only=True, dynamic_typing=False, floating_point_range=[], integer_range=[])
+  },
+  "_Node__node": <rclpy._rclpy_pybind11.Node object at 0x7f74527200b0>,
+  "_logger": <rclpy.impl.rcutils_logger.RcutilsLogger object at 0x7f74528edd00>,
+  "_Node__executor_weakref": None,
+  "_parameter_event_publisher": <rclpy.publisher.Publisher object at 0x7f744abf85f0>,
+  "_clock": Clock(clock_type=ROS_TIME),
+  "_time_source": <rclpy.time_source.TimeSource object at 0x7f744075c4d0>,
+  "_parameter_service": <rclpy.parameter_service.ParameterService object at 0x7f7449d2fe90>,
+  "_type_description_service": <rclpy.type_description_service.TypeDescriptionService object at 0x7f7452aae0f0>
+}
