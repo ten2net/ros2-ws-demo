@@ -18,11 +18,16 @@ class {{NODE_NAME}}Subscriber(Node):
         self.get_logger().info('I heard: "%s"' % msg.data)
 
 def main(args=None):
-    rclpy.init(args=args)
-    subscriber = {{NODE_NAME}}Subscriber()
-    rclpy.spin(subscriber)
-    subscriber.destroy_node()
-    rclpy.shutdown()
+    try:
+        rclpy.init(args=args)
+        subscriber = {{NODE_NAME}}Subscriber()
+        rclpy.spin(subscriber)
+        subscriber.destroy_node()
+        rclpy.shutdown()
+    except KeyboardInterrupt:
+        pass        
+    except Exception as e:
+        print(f"Exception: {e}")        
 
 if __name__ == '__main__':
     main()      

@@ -1,0 +1,1005 @@
+ 1082  python 2.py
+ 1083  python simulation.py 
+ 1084  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1085  chmod +x create_cookiecutter_template.sh 
+ 1086  ./create_cookiecutter_template.sh 
+ 1087  cookiecutter TorpedoSimulationTemplate/
+ 1088  ./HelloworldSubscriber 
+ 1089  cmake /usr/local/cyclonedds/share/CycloneDDS/examples/
+ 1090  cmake /usr/local/cyclonedds/share/CycloneDDS/examples/helloworld ..
+ 1091  cmake --build .
+ 1092  ls
+ 1093  ./HelloworldPublisher 
+ 1094  ./HelloworldPublisher --help
+ 1095  ./RoundtripPing 0 0 0
+ 1096  cd ../..
+ 1097  ls
+ 1098  cd cyclonedds/
+ 1099  code .
+ 1100  cd ../..
+ 1101  cd ..
+ 1102  ls
+ 1103  cd cyclonedds/
+ 1104  ls
+ 1105  mkdir roundtrip
+ 1106  cd roundtrip/
+ 1107  cmake /usr/local/cyclonedds/share/CycloneDDS/examples/roundtrip/
+ 1108  idlc --version
+ 1109  apt install cyclonedds-tools
+ 1110  idlc --version
+ 1111  idlc -version
+ 1112  idlc -h
+ 1113  cmake /usr/local/cyclonedds/share/CycloneDDS/examples/roundtrip/
+ 1114  cmake --build .
+ 1115  cmake /usr/local/cyclonedds/share/CycloneDDS/examples/roundtrip/
+ 1116  cmake --build .
+ 1117  apt-get install dds-idl
+ 1118  apt install cyclonedds-tools
+ 1119  apt uninstall cyclonedds-tools
+ 1120  apt remove cyclonedds-tools
+ 1121  cmake -DCMAKE_PREFIX_PATH=/usr/local/cyclonedds /usr/local/cyclonedds/share/CycloneDDS/examples/roundtrip/
+ 1122  cmake --build .
+ 1123  cmake /usr/local/cyclonedds/share/CycloneDDS/examples/roundtrip/
+ 1124  ls
+ 1125  cmake --build .
+ 1126  export PATH=$PATH:/usr/local/cyclonedds/bin
+ 1127  cmake --build .
+ 1128  ls /usr/local/cyclonedds/bin
+ 1129  ./idlc -version
+ 1130  /usr/local/cyclonedds/b
+ 1131  in/iidlc
+ 1132  /usr/local/cyclonedds/bin/idlc -version
+ 1133  idlc
+ 1134  cmake --build .
+ 1135  ln -s /usr/local/cyclonedds/bin/idlc /usr/bin/idlc
+ 1136  cmake --build .
+ 1137  ls
+ 1138  ./RoundtripPong
+ 1139  cd /usr/local/cyclonedds/
+ 1140  ls
+ 1141  cd share/
+ 1142  ls
+ 1143  cd CycloneDDS/
+ 1144  ls
+ 1145  cd examples/
+ 1146  ls
+ 1147  cd helloworld/
+ 1148  ls
+ 1149  make
+ 1150  make install
+ 1151  rm -Rf *
+ 1152  cmake -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 -DCMAKE_INSTALL_PREFIX=/root/anaconda3/envs/sequoia39 ..
+ 1153  ll /usr/local/share/fastdds
+ 1154  xs cmake 
+ 1155  cd cmake
+ 1156  cd ..
+ 1157  cmake -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 -DCMAKE_INSTALL_PREFIX=/root/anaconda3/envs/sequoia39 ..
+ 1158  cmake -version
+ 1159  cd ..
+ 1160  cd ../..
+ 1161  cd ..
+ 1162  mkdir cyclonedds
+ 1163  cd cyclonedds/
+ 1164  git clone https://github.com/eclipse-cyclonedds/cyclonedds.git
+ 1165  cd cyclonedds/
+ 1166  ls
+ 1167  mkdir build
+ 1168  cd build 
+ 1169  cmake -DCMAKE_INSTALL_PREFIX=/usr/local/cyclonedds ..
+ 1170  cmake --build .
+ 1171  cmake --build . --target install
+ 1172  ls
+ 1173  cmake -DBUILD_EXAMPLES=ON -DCMAKE_INSTALL_PREFIX=/usr/local/cyclonedds ..
+ 1174  cmake --build .
+ 1175  cmake --build . --target install
+ 1176  ls
+ 1177  cd examples/
+ 1178  ls
+ 1179  cd helloworld/
+ 1180  ls
+ 1181  mkdir build 
+ 1182  cd build
+ 1183  cmake ..
+ 1184  cd ../..
+ 1185  cd ..
+ 1186  ./hello_world subscriber
+ 1187  cd build 
+ 1188  make install
+ 1189  make
+ 1190  make install
+ 1191  cmake ..
+ 1192  make
+ 1193  make clean
+ 1194  rm Rf *
+ 1195  rm -Rf *
+ 1196  cmake ..
+ 1197  make
+ 1198  make install
+ 1199  rm -Rf *
+ 1200  cmake -DCOMPILE_EXAMPLES=ON -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 -DCMAKE_INSTALL_PREFIX=/root/anaconda3/envs/sequoia39 ..
+ 1201  make -j2
+ 1202  make install
+ 1203  rm -Rf *
+ 1204  cmake -DCOMPILE_EXAMPLES=ON -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 
+ 1205  ls
+ 1206  cd ..
+ 1207  cd build/
+ 1208  cmake -DCOMPILE_EXAMPLES=ON -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 
+ 1209  cmake
+ 1210  cmake -DCOMPILE_EXAMPLES=ON -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 ..
+ 1211  make -j2
+ 1212  make install
+ 1213  ls
+ 1214  cmake -DCOMPILE_EXAMPLES=ON ..
+ 1215  make -j2
+ 1216  ls
+ 1217  cd Fast-DDS/
+ 1218  ls
+ 1219  cd examples/
+ 1220  ls
+ 1221  cd cpp
+ 1222  ls
+ 1223  cd hello_world/
+ 1224  ls
+ 1225  ./hello_world publisher
+ 1226  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1227  python main_fib.py --mt
+ 1228  python main_best3.py 
+ 1229  python main_index.py 
+ 1230  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1231  python main.py
+ 1232  swig -version
+ 1233  history
+ 1234  cmake -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 -DCMAKE_INSTALL_PREFIX=/root/anaconda3/envs/sequoia39 -DCMAKE_POSITION_INDEPENDENT_CODE=TRUE ..
+ 1235  ls
+ 1236  cd..
+ 1237  cd ..
+ 1238  cd build/
+ 1239  cmake -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 -DCMAKE_INSTALL_PREFIX=/root/anaconda3/envs/sequoia39 -DCMAKE_POSITION_INDEPENDENT_CODE=TRUE ..
+ 1240  make
+ 1241  make clean
+ 1242  cmake -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 -DCMAKE_INSTALL_PREFIX=/root/anaconda3/envs/sequoia39 -DCMAKE_POSITION_INDEPENDENT_CODE=TRUE ..
+ 1243  make
+ 1244  ldd src/swig/_fastdds_python.so
+ 1245  make clean
+ 1246  cmake -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 -DCMAKE_INSTALL_PREFIX=/root/anaconda3/envs/sequoia39 -DCMAKE_POSITION_INDEPENDENT_CODE=TRUE ..
+ 1247  make
+ 1248  cd ..
+ 1249  cd -
+ 1250  cd /opt/wangf/sim_ws/fastdds_ws/src/Fast-DDS-python/fastdds_python
+ 1251  mkdir build
+ 1252  cd build 
+ 1253  cmake -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 -DCMAKE_INSTALL_PREFIX=/root/anaconda3/envs/sequoia39 -DCMAKE_POSITION_INDEPENDENT_CODE=TRUE ..
+ 1254  make
+ 1255  cmake -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 -DCMAKE_INSTALL_PREFIX=/root/anaconda3/envs/sequoia39 -DCMAKE_POSITION_INDEPENDENT_CODE=TRUE ..
+ 1256  rm -Rf *
+ 1257  ls
+ 1258  cmake -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 -DCMAKE_INSTALL_PREFIX=/root/anaconda3/envs/sequoia39 -DCMAKE_POSITION_INDEPENDENT_CODE=TRUE ..
+ 1259  make
+ 1260  sync
+ 1261  echo 1 > /proc/sys/vm/drop_caches
+ 1262  echo 2 > /proc/sys/vm/drop_caches
+ 1263  echo 3 > /proc/sys/vm/drop_caches
+ 1264  swapoff -a && swapon -a
+ 1265  make
+ 1266  rm -Rf *
+ 1267  cmake -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 -DCMAKE_INSTALL_PREFIX=/root/anaconda3/envs/sequoia39 -DCMAKE_POSITION_INDEPENDENT_CODE=TRUE ..
+ 1268  make
+ 1269  /usr/bin/ld /usr/local/lib/libfastdds.a
+ 1270  rm /usr/local/lib/libfastdds.a
+ 1271  make
+ 1272  rm -Rf *
+ 1273  cmake -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 -DCMAKE_INSTALL_PREFIX=/root/anaconda3/envs/sequoia39 -DCMAKE_POSITION_INDEPENDENT_CODE=TRUE ..
+ 1274  rm -Rf *
+ 1275  cmake -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 -DCMAKE_INSTALL_PREFIX=/root/anaconda3/envs/sequoia39 -DCMAKE_POSITION_INDEPENDENT_CODE=TRUE ..
+ 1276  cmake ..
+ 1277  rm -Rf /usr/local/share/fastdds
+ 1278  cmake -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 -DCMAKE_INSTALL_PREFIX=/root/anaconda3/envs/sequoia39 -DCMAKE_POSITION_INDEPENDENT_CODE=TRUE ..
+ 1279  cmake -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 -DCMAKE_INSTALL_PREFIX=/root/anaconda3/envs/sequoia39 ..
+ 1280  cmake -DPython3_EXECUTABLE=/root/anaconda3/envs/sequoia39/bin/python3 -DCMAKE_INSTALL_PREFIX=/root/anaconda3/envs/sequoia39 -DCMAKE_POSITION_INDEPENDENT_CODE=TRUE ..
+ 1281  cd /opt/renlu/go/src
+ 1282  ll
+ 1283  cd uavfence/
+ 1284  ll
+ 1285  rm uavfence.exe 
+ 1286  ll
+ 1287  go build main.go
+ 1288  history 
+ 1289  docker exec -it ad04d929b230 bash
+ 1290  ps
+ 1291  history 
+ 1292  docker exec  -it e25deaa4133d bash
+ 1293  mv -r /opt/renlu/go/src/uavfence_qxk/ /opt/yangjh/go/src
+ 1294  mv  /opt/renlu/go/src/uavfence_qxk/ /opt/yangjh/go/src
+ 1295  hisory
+ 1296  history
+ 1297  docker  images
+ 1298  ls
+ 1299  cd  /opt
+ 1300  ls
+ 1301  cd yangjh/
+ 1302  ls
+ 1303  docker ps
+ 1304  docker run  -it ad04d929b230 bash
+ 1305  docker exec  -it ad04d929b230 bash
+ 1306  cd sea-battle-sim/
+ 1307  uvicorn aapp:app --reload
+ 1308  python f_ws_server.py 
+ 1309  uvicorn aapp:app --reload
+ 1310  pip install -r requirements.txt 
+ 1311  uvicorn aapp:app --reload
+ 1312  uvicorn main:app --reload
+ 1313  pip install -r requirements.txt 
+ 1314  uvicorn main:app
+ 1315  uvicorn main:app --reload
+ 1316  pip install cyclonedds
+ 1317  uvicorn main:app --reload
+ 1318  docker images
+ 1319  docker images | grep 193a711
+ 1320  docker ps
+ 1321  docker images | grep 866
+ 1322  docker login -u cn-east-2@UZXRILUM7CGMGM303QYO -p d2587f147ce5e3ee4ce43ba427d5c58a4bea0a03e52264833125ba6175a424da swr.cn-east-2.myhuaweicloud.com
+ 1323  docker tag goaidev-yjh:v0.0.1 swr.cn-east-2.myhuaweicloud.com/bigdata/goaidev-yjh:v0.0.1
+ 1324  docker puh swr.cn-east-2.myhuaweicloud.com/bigdata/goaidev-yjh:v0.0.1
+ 1325  docker push swr.cn-east-2.myhuaweicloud.com/bigdata/goaidev-yjh:v0.0.1
+ 1326  docker ps -a
+ 1327  docker ps
+ 1328  docker exec -it 53c33b19a2b3 bash
+ 1329  docker exec -it ad04d929b230 bash
+ 1330  ls
+ 1331  docker ps
+ 1332  docker commit ad04d929b230
+ 1333  docker images
+ 1334  docker ps -a
+ 1335  docker images
+ 1336  docker run -it 866a1444197c bash
+ 1337  python main.py 
+ 1338  cd ,,
+ 1339  cd ..
+ 1340  cd ...
+ 1341  cd ..
+ 1342  mkdie ccict
+ 1343  mkdir ccict
+ 1344  cd ccict/
+ 1345  git clone https://gitee.com/gdsten2net/ccsand-box.git
+ 1346  git clone https://gitee.com/gdsten2net/gds-map-plot.git
+ 1347  git clone https://gitee.com/gdsten2net/milgraphics.git
+ 1348  git clone https://gitee.com/cc-ict/ccsand-box-simulator.git
+ 1349  git clone https://gitee.com/cc-ict/ccsand-box-gateway.git
+ 1350  git clone https://gitee.com/gdsten2net/milsymbolbrowser.git
+ 1351  code .
+ 1352  yarn
+ 1353  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1354  python main.py --dev
+ 1355  python main.py 
+ 1356  uvicorn main:app --reload --host
+ 1357  uvicorn main:app --reload --host 192.168.15.131
+ 1358  uvicorn main:app --reload --host 0.0.0.0
+ 1359  python -m http.server 8888
+ 1360  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1361  code .
+ 1362  git clone https://github.com/BimaAdi/fastapi-with-python-socketio-example.git
+ 1363  python ws2.py 
+ 1364  uvicorn ws2:app --reload
+ 1365  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1366  python -m http.server 8580
+ 1367  uvicorn fws:app --reload
+ 1368  uvicorn fws:app2 --reload
+ 1369  uvicorn fws:app --reload
+ 1370  pip install fastapi-socketio[asgi]
+ 1371  uvicorn fws:app --reload
+ 1372  pip install fastapi-socketio[asgi] python-engineio
+ 1373  uvicorn fws:app --reload
+ 1374  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1375  python simulation.py 
+ 1376  python simulation2.py 
+ 1377  ++simulation2.py
+ 1378  python simulation2.py 
+ 1379  ++simulation2.py
+ 1380  python simulation2.py 
+ 1381  ++simulation2.py
+ 1382  python simulation2.py 
+ 1383  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1384  npm run dev
+ 1385  python main_index.py 
+ 1386  python main_best3.py 
+ 1387  python main_fib.py --mt
+ 1388  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1389  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1390  pip install -r requirements.txt 
+ 1391  chmod +x run_simulation.sh 
+ 1392  ./run_simulation.sh 
+ 1393  cd src
+ 1394  cd SeaBattleSimulator/
+ 1395  ls
+ 1396  python -m battle_simulator
+ 1397  pip install pynput
+ 1398  python -m battle_simulator
+ 1399  export DISPLAY=:0
+ 1400  python -m battle_simulator
+ 1401  apt-get install xvfb
+ 1402  xvfb :99 -ac &
+ 1403  export DISPLAY=:99
+ 1404  python -m battle_simulator
+ 1405  pip install keyboard
+ 1406  pip install python-evdev
+ 1407  pip install evdev
+ 1408  python -m battle_simulator
+ 1409  mkdir /dev/input/eventX
+ 1410  python -m battle_simulator
+ 1411  ls /dev/input/
+ 1412  cd eventx
+ 1413  cd eventX
+ 1414  input list
+ 1415  udevadm info -a -n /dev/input/eventX
+ 1416  ls /dev/input/eventX
+ 1417  rm -Rf /dev/input/eventX
+ 1418  ls /dev/input/
+ 1419  ls /dev/input/event0
+ 1420  python -m battle_simulator
+ 1421  ls /dev/input/event0
+ 1422  python -m battle_simulator
+ 1423  evtest
+ 1424  python -m battle_simulator
+ 1425  evtest
+ 1426  python -m battle_simulator
+ 1427  cat /proc/bus/input/devices
+ 1428  cat /proc/bus/input/devices |grep keyboard
+ 1429  evtest
+ 1430  python e.py 
+ 1431  fuser /dev/input/event3
+ 1432  kill 985
+ 1433  fuser /dev/input/event3
+ 1434  kill 2898976
+ 1435  fuser /dev/input/event3
+ 1436  kill 3095231
+ 1437  fuser /dev/input/event3
+ 1438  kill 3096270
+ 1439  python e.py 
+ 1440  python /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1441  python /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1442  chmod +x gen.sh 
+ 1443  ./gen.sh 
+ 1444  cd SeaBattleSimulator/
+ 1445  code .
+ 1446  yarn
+ 1447  npm install -g yrm
+ 1448  yrm 
+ 1449  yrm ls
+ 1450  yrm use taobao
+ 1451  yarn
+ 1452  yrm ls
+ 1453  yrm use cnpm
+ 1454  yarn
+ 1455  yarn dev
+ 1456  chmod +x start.sh 
+ 1457  ./start.sh 
+ 1458  npm install -g serve
+ 1459  nrm ls
+ 1460  nrm use taobao
+ 1461  npm install -g serve
+ 1462  ./start.sh 
+ 1463  ./start.sh 
+ 1464  cd ccsand-box
+ 1465  code .
+ 1466  docker ps
+ 1467  docker images
+ 1468  docker ps 
+ 1469  docker exec -it ad04d929b230 bash
+ 1470  python /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1471  python simulation2.py 
+ 1472  history 
+ 1473  pythom simulation2.py 
+ 1474  python simulation2.py 
+ 1475  python /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1476  uvicorn main:app --reload --host 0.0.0.0
+ 1477  python /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1478  yarn add socket.io
+ 1479  yarn remove socket.io
+ 1480  yarn add socket.io-client
+ 1481  yarn dev
+ 1482  yarn dev --host 0.0.0.0
+ 1483  python /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1484  python /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1485  python /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1486  python main_index.py 
+ 1487  pythin main_best3.py 
+ 1488  python main_best3.py 
+ 1489  python main_fib.py --mt
+ 1490  python main.py 
+ 1491  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1492  docker exec -it ros2 bash
+ 1493  python main.py 
+ 1494  pip install rclpy-intellisense
+ 1495  python main.py 
+ 1496  python
+ 1497  pip install rcl_interfaces
+ 1498  python main.py 
+ 1499  docker start ros2
+ 1500  pwd
+ 1501  ls
+ 1502  cd//
+ 1503  docker ps -a | ros
+ 1504  docker ps -a | grep ros
+ 1505  docker exec -it ros2
+ 1506  docker exec -it ros2 bash
+ 1507  conda create --help
+ 1508  conda create -n ros2 python=3.12.3
+ 1509  conda activate ros2
+ 1510  pip install rclpy
+ 1511  pythom main.py 
+ 1512  python main.py 
+ 1513  pip install roslibpy
+ 1514  python main.py 
+ 1515  pip install rosros
+ 1516  python main.py 
+ 1517  pip3 install rosdepc
+ 1518  rosdepc init
+ 1519  rosdepc update
+ 1520  mkdir -p ~/dev_ws/src
+ 1521  cd ~/dev_ws/src
+ 1522  git clone https://gitee.com/guyuehome/ros2_21_tutorials.git
+ 1523  cd ..
+ 1524  rosdepc install -i --from-path src --rosdistro foxy -y  --ignore-src
+ 1525  mkdir ros2
+ 1526  cd ros2
+ 1527  ros2 pkg create --build-type ament_python learning_pkg_python 
+ 1528  ls
+ 1529  cd ..
+ 1530  ls
+ 1531  cd dev_ws/
+ 1532  ls
+ 1533  pwd
+ 1534  cd /opt/wangf/ros2/ws/
+ 1535  ls
+ 1536  more main.py 
+ 1537  pull osrf/ros2:explicit
+ 1538  docker pull osrf/ros2:explicit
+ 1539  docker pull rwthika/ros2
+ 1540  export HTTPS_PROXY=http://192.168.200.121:7890
+ 1541  export HTTP_PROXY=http://192.168.200.121:7890
+ 1542  docker pull rwthika/ros2
+ 1543  export HTTP_PROXY=
+ 1544  export HTTPS_PROXY=
+ 1545  docker pull rwthika/ros2
+ 1546  docker pull docker.1panel.dev/rwthika/ros2
+ 1547  docker images| grep rwth
+ 1548  docker pull docker.1panel.dev/rwthika/ros2-ml
+ 1549  docker pull docker.1panel.dev/rwthika/ros2-ml:humble
+ 1550  cd ../..
+ 1551  cd ros
+ 1552  cd ros2
+ 1553  ls
+ 1554  mkdir ws
+ 1555  cd ws
+ 1556  mkdir demo1
+ 1557  docker run --rm -it rwthika/ros2
+ 1558  docker images| grep rwth
+ 1559  docker run --rm -it docker.1panel.dev/rwthika/ros2 bash
+ 1560  docker run --name ros2 -v $PWD:/ws -it docker.1panel.dev/rwthika/ros2 bash
+ 1561  docker pull docker.1panel.dev/osrf/ros2:explicit
+ 1562  docker pull docker.1panel.dev/althack/ros2
+ 1563  docker pull docker.1panel.dev/library/alpine:latest
+ 1564  docker pull docker.1panel.dev/osrf/ros2:explicit
+ 1565  docker pull docker.1panel.dev/althack/ros2
+ 1566  cd ..
+ 1567  cd ,,
+ 1568  cd ../../..
+ 1569  mkdir ros2
+ 1570  cd ros2
+ 1571  git clone https://github.com/ika-rwth-aachen/docker-ros.git
+ 1572  mkdir -p docker
+ 1573  git submodule add https://github.com/ika-rwth-aachen/docker-ros.git docker/docker-ros
+ 1574  cd docker/
+ 1575  git init
+ 1576  git config --global init.defaultBranch main
+ 1577  git init
+ 1578  git submodule add https://github.com/ika-rwth-aachen/docker-ros.git docker/docker-ros
+ 1579  ls
+ 1580  cd docker
+ 1581  ls
+ 1582  cd docker-ros/
+ 1583  ls
+ 1584  docker pull docker.1panel.dev/rwthika/ros2:humble
+ 1585  cd ..
+ 1586  ls
+ 1587  cd ws
+ 1588  code .
+ 1589  python main_index.py 
+ 1590  python main_best3.py 
+ 1591  python main_fib.py --mt
+ 1592  python main.py
+ 1593  pwd
+ 1594  python main.py main.py &
+ 1595  python main.py &
+ 1596  env
+ 1597  pip install capitalfarmer 
+ 1598  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key
+ 1599  docke
+ 1600  docker commit  ros2 cc/ros2
+ 1601  docker images| grep cc
+ 1602  docker rmi cc/ros2
+ 1603  docker images| grep cc
+ 1604  docker commit ros2 cc/ros2
+ 1605  docker images| grep cc
+ 1606  wget http://fishros.com/install -O fishros && . fishros
+ 1607  ros2
+ 1608  wget http://fishros.com/install -O fishros && . fishros
+ 1609  ros2
+ 1610  docker exec -it ros2 bash
+ 1611  git init .
+ 1612  git add .
+ 1613  git commit -m "init"
+ 1614  docker exec -it ros2 bash
+ 1615  ls
+ 1616  docker images |grep ros
+ 1617  hhistory
+ 1618  history
+ 1619  history |grep pull
+ 1620  history | grep save
+ 1621  history | grep commit
+ 1622  history | grep fastdds
+ 1623  docker exec -it ros2 bash
+ 1624  apt install ros-humble-navigation2 ros-humble-nav2-bringup
+ 1625  apt update
+ 1626  apt install ros-humble-navigation2 ros-humble-nav2-bringup
+ 1627  apt install ros-humble-turtlebot3*
+ 1628  apt install software-properties-common
+ 1629  add-apt-repository universe
+ 1630  apt update && sudo apt install curl -y
+ 1631  apt update
+ 1632  apt install ros-humble-navigation2 ros-humble-nav2-bringup
+ 1633  curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+ 1634  apt install ros-humble-rmw-cyclonedds-cpp
+ 1635  env
+ 1636  pwd
+ 1637  docker exec -it ros2 bash
+ 1638  dockerstart ros2
+ 1639  docker start ros2
+ 1640  docker exec -it ros2 bash
+ 1641  docker rm ros2
+ 1642  docker stop ros2
+ 1643  docker rm ros2
+ 1644  docker run -d --name ros2 -v $PWD:/docker-ros/ws cc/ros2
+ 1645  docker exec -it ros2 bash
+ 1646  docker start ros2
+ 1647  docker exec -it ros2 bash
+ 1648  docker start ros2
+ 1649  docker ps
+ 1650  docker ps |grep ros
+ 1651  docker ps -a |grep ros
+ 1652  docker start ros2
+ 1653  docker ps -a |grep ros
+ 1654  docker ps  |grep ros
+ 1655  docker ps |grep ros
+ 1656  docker ps |grep ros2
+ 1657  docker rm ros2
+ 1658  docker run -it --name ros2 -v $PWD:/docker-ros/ws cc/ros2 bash
+ 1659  docker ps |grep ros2
+ 1660  docker start ros2
+ 1661  docker exec -it ros2 bash
+ 1662  docker exec -it ros2 bash
+ 1663  docker exec -it ros2
+ 1664  docker exec -it ros2 bash
+ 1665  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1666  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1667  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1668  python main_best3.py 
+ 1669  python main_fib.py --mt
+ 1670  python main_index.py 
+ 1671  python main.py 
+ 1672  code .
+ 1673  code .
+ 1674  cd ..
+ 1675  ls
+ 1676  ./222.sh 
+ 1677  ./222.sh 
+ 1678  python /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1679  python /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1680  python /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1681  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1682  cd /opt/wangf/
+ 1683  wget https://github.com/cyberbotics/webots/releases/download/R2023b/webots-R2023b_setup.exe
+ 1684  ls
+ 1685  rm webots-R2023b_setup.exe
+ 1686  rm webots-R2023b_setup.exe.1 
+ 1687  cd /opt/wangf/nautilustrader-research/Sequoia/图灵甄选/turing_filter_for
+ 1688  _a_stock
+ 1689  cd /opt/wangf/nautilustrader-research/Sequoia/图灵甄选/turing_filter_for_a_stock/
+ 1690  ls
+ 1691  conda env list
+ 1692  conda activate sequoia39
+ 1693  python main.py &
+ 1694  cd /opt/wangf/ccict/SeaBattleSimulator/src/SeaBattleSimulator
+ 1695  conda env list
+ 1696  conda activate sequoia39
+ 1697  python -m battle_simulator
+ 1698  wwd
+ 1699  dddddddd
+ 1700  ddddd
+ 1701  ls
+ 1702  python e.py
+ 1703  wget https://github.com/cyberbotics/webots/releases/download/R2023b/assets-R2023b.zip
+ 1704  ls
+ 1705  pwd
+ 1706  dcds
+ 1707  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1708  docker ps
+ 1709  clear
+ 1710  docker ps
+ 1711  cd /opt/
+ 1712  ls
+ 1713  dpcker cp go1.19.13.linux-arm64.tar.gz 9c63cf732226:/opt
+ 1714  docker cp go1.19.13.linux-arm64.tar.gz 9c63cf732226:/opt
+ 1715  python main.py 
+ 1716  python main_fib.py 
+ 1717  python main_fib.py --mt
+ 1718  colcon build
+ 1719  conda env list
+ 1720  conda activate sequoia39
+ 1721  colcon build
+ 1722  apt install swig4.1
+ 1723  conda env list
+ 1724  conda activate sequoia39
+ 1725  vcs import src < fastdds_python.repos
+ 1726  colcon build
+ 1727  cd /opt/wangf/sim_ws/Fast-DDS-python/ws/build/fastdds_python_examples/HelloWorldExample
+ 1728  python HelloWorld.py -p publisher
+ 1729  python HelloWorld.py -p subscriber
+ 1730  python HelloWorld.py -p publisher dd
+ 1731  python HelloWorld.py -p publisher 33
+ 1732  python HelloWorld.py -p publisher
+ 1733  swig -help
+ 1734  swig -Wall -python TestDemo.i
+ 1735  source /opt/wangf/sim_ws/Fast-DDS-python/ws/install/setup.bash
+ 1736  swig -Wall -python TestDemo.i
+ 1737  source /opt/wangf/sim_ws/Fast-DDS-python/ws/install/setup.bash
+ 1738  cmake .
+ 1739  make
+ 1740  python TestDemo.py -p publisher
+ 1741  python main_p.py -p publisher
+ 1742  apt install -y swig libpython3-dev
+ 1743  conda env list
+ 1744  conda activate sequoia39
+ 1745  python main_p.py -p publisher
+ 1746  python3 HelloWorldExample.py -p publisher
+ 1747  cmake .
+ 1748  make
+ 1749  python3 HelloWorldExample.py -p publisher
+ 1750  cd ../..
+ 1751  cd ..
+ 1752  ls
+ 1753  cd .
+ 1754  cd ..
+ 1755  ls
+ 1756  cd ..
+ 1757  ls
+ 1758  cd ..
+ 1759  ls
+ 1760  cd fastdds_ws/
+ 1761  ls
+ 1762  cd src
+ 1763  ls
+ 1764  touch Dockerfile
+ 1765  ls
+ 1766  vim Dockerfile 
+ 1767  ls
+ 1768  docker build -t fastdds-image .
+ 1769  ls
+ 1770  code .
+ 1771  make
+ 1772  python main_p.py -p piblisher
+ 1773  python 
+ 1774  python main_p.py -p piblisher
+ 1775  fastddsgen -python TestDemo.idl
+ 1776  fastddsgen -python HelloWorld.idl
+ 1777  cmake .
+ 1778  make
+ 1779  make -fPIC
+ 1780  cmake . -fPIC
+ 1781  cmake . 
+ 1782  make 
+ 1783  python 
+ 1784  make 
+ 1785  fastddsgen -python HelloWorld.idl
+ 1786  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1787  python main_index.py 
+ 1788  python main_best3.py 
+ 1789  docker ps
+ 1790  clear
+ 1791  docker ps
+ 1792  docker exec -it e25deaa4133d bash
+ 1793  docker ps
+ 1794  docker stop e25deaa4133d
+ 1795  docker rm e25deaa4133d
+ 1796  ls
+ 1797  docker ps
+ 1798  docker images
+ 1799  docker run -it 2b78844db08a bash
+ 1800  docker ps
+ 1801  docker images
+ 1802  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1803  colcon build
+ 1804  conda env list
+ 1805  conda activate sequoia39
+ 1806  colcon build
+ 1807  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1808  fastddsgen
+ 1809  cd ..
+ 1810  git clone https://github.com/eProsima/Fast-DDS-python.git
+ 1811  cd Fast-DDS-python/
+ 1812  ls
+ 1813  code .
+ 1814  python /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1815  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.14.0/python_files/deactivate/bash/envVars.txt
+ 1816  ls
+ 1817  tar -zxvf eProsima_Fast-DDS-v3.1.0-Linux.tgz 
+ 1818  ls
+ 1819  ./install.sh 
+ 1820  export LD_LIBRARY_PATH=/usr/local/lib/
+ 1821  echo 'export LD_LIBRARY_PATH=/usr/local/lib/' >> ~/.bashrc
+ 1822  tar 
+ 1823  tar --usage
+ 1824  tar -zxvf eProsima_Fast-DDS-v3.1.0-Linux.tgz -C ./eProsima_Fast-DDS-v3.1.0-Linux
+ 1825  mkdir -p eProsima_Fast-DDS-v3.1.0-Linux
+ 1826  tar -zxvf eProsima_Fast-DDS-v3.1.0-Linux.tgz -C ./eProsima_Fast-DDS-v3.1.0-Linux
+ 1827  mkdir ubuntu-fastdds-suite v3.1.0
+ 1828  tar -xvf ubuntu-fastdds-suite.tar -C ./ubuntu-fastdds-suite v3.1.0
+ 1829  ls
+ 1830  mv 'ubuntu-fastdds-suite v3.1.0.tar' ubuntu-fastdds-suite v3.1.0.tar
+ 1831  docker load -i "ubuntu-fastdds-suite v3.1.0.tar" 
+ 1832  docker images | grep dds
+ 1833  docker run -it ubuntu-fastdds:v3.1.0
+ 1834  docker run -it ubuntu-fastdds-suite:v3.1.0
+ 1835  docker run  -it -v $PWD:/ccdds ubuntu-fastdds-suite:v3.1.0
+ 1836  cd ..
+ 1837  ls
+ 1838  chmod 755 setup.sh 
+ 1839  ls
+ 1840  ./setup.sh 
+ 1841  conda env list
+ 1842  conda activate sequoia39
+ 1843  pip install -U colcon-common-extensions vcstool
+ 1844  apt update
+ 1845  pt install -y     libasio-dev     libtinyxml2-dev
+ 1846  apt install -y     libasio-dev     libtinyxml2-dev
+ 1847  apt install -y     swig4.1     libpython3-dev
+ 1848  apt update
+ 1849  apt install -y     swig4.1     libpython3-dev
+ 1850  mkdir -p fastdds_python_ws/src
+ 1851  cd fastdds_python_ws
+ 1852  wget https://raw.githubusercontent.com/eProsima/Fast-DDS-python/main/fastdds_python.repos
+ 1853  vcs import src < fastdds_python.repos
+ 1854  colcon
+ 1855  wget https://sourceforge.net/projects/swig/files/swig/swig-4.1.1/swig-4.1.1.tar.gz/download
+ 1856  git clone https://github.com/fishros/dds_tutorial.git
+ 1857  cd dds_tutorial/examples/01-hellofishros
+ 1858  mkdir build && cd build
+ 1859  cmake .. 
+ 1860  apt install python3-colcon-common-extensions python3-vcstool zip openjdk-8-jdk  -y
+ 1861  apt update
+ 1862  apt install python3-colcon-common-extensions python3-vcstool zip openjdk-8-jdk  -y
+ 1863  apt-get install python3-colcon-common-extensions python3-vcstool zip openjdk-8-jdk  -y
+ 1864  apt-get install python3-colcon-common-extensions python3-vcstool zip openjdk-8-jdk  
+ 1865  cd ..
+ 1866  mkdir -p fastdds_ws/src 
+ 1867  cd fastdds_ws && wget https://downloads.gradle-dn.com/distributions/gradle-6.4-bin.zip && unzip gradle-6.4-bin.zip 
+ 1868  wget http://fishros.com/tools/files/fastrtps.repos
+ 1869  ls
+ 1870  fastdds_install
+ 1871  cd src
+ 1872  ls
+ 1873  git clone https://github.com/eProsima/Fast-DDS.git
+ 1874  ls
+ 1875  git clone https://github.com/eProsima/Fast-DDS.git
+ 1876  cd Fast-DDS
+ 1877  git branch -a
+ 1878  ls
+ 1879  more .gitmodules 
+ 1880  git submodule update --init --recursive
+ 1881  cd ..
+ 1882  git clone https://github.com/foonathan/memory
+ 1883  ls
+ 1884  cd Fast-DDS/
+ 1885  git submodule update --init --recursive
+ 1886  cd ..
+ 1887  ls
+ 1888  mkdir dds_001
+ 1889  cd dds_001
+ 1890  ls
+ 1891  ln -s ../Fast-DDS Fast-DDS
+ 1892  ln -s ../memory memory
+ 1893  ls
+ 1894  mkdir build
+ 1895  ls
+ 1896  touch CMakeLists.txt
+ 1897  vim CMakeLists.txt
+ 1898  ls
+ 1899  cd ..
+ 1900  cd Fast-DDS/
+ 1901  git submodule update --progress --init --recursive -- "thirdparty/dds-types-test"
+ 1902  git submodule update --progress --init --recursive -- "thirdparty/fastcdr"
+ 1903  ls
+ 1904  cd ..
+ 1905  cd dds_001/
+ 1906  ls
+ 1907  cmake .. && make
+ 1908  cd build
+ 1909  cmake .. && make
+ 1910  make install
+ 1911  apt install autoconf
+ 1912  cd..
+ 1913  cd ..
+ 1914  cd Fast-DDS/thirdparty/asio/asio
+ 1915  pwd
+ 1916  ./autogen.sh
+ 1917  cd ..
+ 1918  ls
+ 1919  cd Fast-DDS/
+ 1920  cd thirdparty/
+ 1921  ls
+ 1922  cd asio/
+ 1923  ls
+ 1924  cd asio/
+ 1925  ls
+ 1926  ./autogen.sh
+ 1927  chmod 755 autogen.sh 
+ 1928  ./autogen.sh
+ 1929  ./configure
+ 1930  make
+ 1931  make install
+ 1932  make
+ 1933  make install
+ 1934  cd ..
+ 1935  ls
+ 1936  cd ..
+ 1937  cd dds_001/
+ 1938  cd build/
+ 1939  ls
+ 1940  rm -rf *
+ 1941  ls
+ 1942  cmake -DCOMPILE_EXAMPLES=ON ..
+ 1943  ls
+ 1944  make -j2
+ 1945  ls
+ 1946  tree Fast-DDS/src/ -L 2
+ 1947  apt  install tree
+ 1948  tree Fast-DDS/src/ -L 2
+ 1949  cd Fast-DDS/examples/cpp/
+ 1950  ls
+ 1951  cd hello_world/
+ 1952  ls
+ 1953  cd hello_world
+ 1954  ./hello_world publisher
+ 1955  fastddsgen
+ 1956  fastddsgen -language python ShipStatus.idl 
+ 1957  fastddsgen -language java ShipStatus.idl 
+ 1958  fastddsgen.bat -python SensorData.idl 
+ 1959  fastddsgen -python SensorData.idl 
+ 1960  fastddsgen -python TargetStatus.idl 
+ 1961  git clone https://github.com/fishros/dds_tutorial.git
+ 1962  cd ..
+ 1963  ls
+ 1964  cd ..
+ 1965  ls
+ 1966  cd sim_ws/
+ 1967  ls
+ 1968  cd fastdds_ws/
+ 1969  ls
+ 1970  cd src
+ 1971  ls
+ 1972  cd dds_001/
+ 1973  ls
+ 1974  cd build/
+ 1975  ls
+ 1976  cd Fast-DDS/
+ 1977  ls
+ 1978  cd examples/
+ 1979  ls
+ 1980  cd cpp
+ 1981  ls
+ 1982  cd hello_world/
+ 1983  ls
+ 1984  ./hello_world subscriber
+ 1985  ls
+ 1986  chmod 755 setup.sh
+ 1987  ./setup.sh 
+ 1988  cmake
+ 1989  apt install libasio-dev libtinyxml2-dev
+ 1990  apt install libssl-dev
+ 1991  apt install libp11-dev
+ 1992  apt install softhsm2
+ 1993  apt-get install -y swig
+ 1994  swig 
+ 1995  swig -help
+ 1996  apt install -y terminator
+ 1997  terminator -h
+ 1998  echo $DISPLAY
+ 1999  export DISPLAY=:0
+ 2000  echo $DISPLAY
+ 2001  source ~/.bashrc
+ 2002  terminator
+ 2003  apt install ubuntu-desktop -y
+ 2004  cd /root
+ 2005  ls
+ 2006  ll
+ 2007  mkdir .vnc
+ 2008  ls
+ 2009  cd .vnc
+ 2010  touch startup
+ 2011  vim startup
+ 2012  chmod +x startup
+ 2013  vncserver :1 -geometry 1024x768 -depth 24
+ 2014  mv startup xstartup
+ 2015  ll
+ 2016  ./xstartup 
+ 2017  apt install vnc4server -y
+ 2018  apt install tightvncserver -y
+ 2019  vncserver :1 -geometry 1024x768 -depth 24
+ 2020  cd etc/systemd/system
+ 2021  cd /etc/systemd/system
+ 2022  ls
+ 2023  touch vncserver@.service
+ 2024  vim vncserver@.service
+ 2025  systemctl enable vncserver@:1.service
+ 2026  systemctl start vncserver@:1.service
+ 2027  systemctl status vncserver@:1.service
+ 2028  vncserver :1 -geometry 1024x768 -depth 24
+ 2029  vncserver --help
+ 2030  sudo netstat -tulnp | grep vnc
+ 2031  vncserver -kill :1
+ 2032  vncserver -h
+ 2033  telnet localhost 5901
+ 2034  telnet localhost 5900
+ 2035* 
+ 2036  systemctl status vncserver@:1.service
+ 2037  vncserver :2 -geometry 1024x768 -depth 24
+ 2038  telnet localhost 5901
+ 2039  telnet localhost 5900
+ 2040  sudo netstat -tulnp | grep vnc
+ 2041  telnet localhost 5902
+ 2042  vncserver -kill :1
+ 2043  vncserver -kill :2
+ 2044  vncserver -h
+ 2045  vncserver :0 -geometry 1024x768 -depth 24 -alwaysshared
+ 2046  sudo netstat -tulnp | grep vnc
+ 2047  ps -ef | grep -i vnc
+ 2048  vncserver -kill :0
+ 2049  vncserver :1 -geometry 1920x1080
+ 2050  cat .etc/X11
+ 2051  cat /etc/X11/default-display-manager 
+ 2052  apt-get install x11vnc
+ 2053  apt-get install lightdm
+ 2054  vncserver -kill :1
+ 2055  cat /etc/X11/default-display-manager 
+ 2056  x11vnc -storepasswd
+ 2057  x11vnc -display :0
+ 2058  x11vnc -auth /run/lightdm/root/:0 -forever -display :0
+ 2059  vncserver :1 -geometry 1920x1080 -depth 24
+ 2060  vncserver -kill :1
+ 2061  vncserver :0 -geometry 800x600 -depth 24
+ 2062  mkdir -p /root/Desktop
+ 2063  vncserver -kill :0
+ 2064  vncserver :0 -geometry 1920x1024 -depth 24
+ 2065  vncserver -kill :0
+ 2066  vncserver :0 -geometry 1024x900 -depth 24
+ 2067  vncserver -kill :0
+ 2068  vncserver :0 -geometry 1920x1024 -depth 24
+ 2069  vncserver-config
+ 2070  autocutsel -s PRIMARY/CLIPBOARD -cutbuffer 0
+ 2071  autocutsel -fs PRIMARY/CLIPBOARD -cutbuffer 0
+ 2072  autocutsel -f -s PRIMARY/CLIPBOARD -cutbuffer 0
+ 2073  xprop -root CUT_BUFFER0
+ 2074  vim /root/.vnc/xstartup 
+ 2075  vncconfig -show
+ 2076  vnconfig -show
+ 2077  find / -name vncconfig 2>/dev/null
+ 2078  history >history.txt
+ 2079  cd /opt/wangf/ws
+ 2080  cd /opt/wangf/ros2/ws/
+ 2081  history >history.txt
+
+/root/.cache/Cyberbotics/Webots/assets
+
+docker run -d -p 6180:80 --gpus all --name ros2-sim --restart=always -v $HOME/.gazebo/models:/home/ubuntu/.gazebo/models -v /root/.cache/Cyberbotics/Webots/assets:/home/ubuntu/.cache/Cyberbotics/Webots/assets -v $PWD:/docker-ros/ws cc/ros2-gz-webots
+ cc/ros2-gz-webots 

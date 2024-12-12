@@ -18,11 +18,16 @@ class {{NODE_NAME}}Publisher(Node):
         self.publisher_.publish(msg)
 
 def main(args=None):
-    rclpy.init(args=args)
-    publisher = {{NODE_NAME}}Publisher()
-    rclpy.spin(publisher)
-    publisher.destroy_node()
-    rclpy.shutdown()
+    try:
+        rclpy.init(args=args)
+        publisher = {{NODE_NAME}}Publisher()
+        rclpy.spin(publisher)
+        publisher.destroy_node()
+        rclpy.shutdown()
+    except KeyboardInterrupt:
+        pass        
+    except Exception as e:
+        print(f"Exception: {e}")
 
 if __name__ == '__main__':
     main()    
