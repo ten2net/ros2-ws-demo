@@ -68,12 +68,3 @@ USER $USERNAME
 COPY ./entrypoint.sh /
 ENTRYPOINT [ "/bin/bash", "-c", "/entrypoint.sh" ]
 
-
-docker run -it  \
-	--name ros2-jazzy   \
-	--env="DISPLAY"   \
-	--env="QT_X11_NO_MITSHM=1"    \
-	--volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
-	--volume="/home/zys/SLAM/algo/nav:/home/zys/SLAM/algo/nav"  \
-	osrf/ros:jazzy-desktop-full  \
-	rqt
